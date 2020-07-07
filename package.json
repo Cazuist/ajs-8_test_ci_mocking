@@ -1,0 +1,37 @@
+{
+  "name": "1.ajs-8_test-ci_matches",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "build": "webpack --mode development",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cazuist/ajs-8_test-ci_matches.git"
+  },
+  "author": "Cazuist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cazuist/ajs-8_test-ci_matches/issues"
+  },
+  "homepage": "https://github.com/Cazuist/ajs-8_test-ci_matches#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.4",
+    "@babel/core": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "jest": "^26.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5"
+  }
+}
